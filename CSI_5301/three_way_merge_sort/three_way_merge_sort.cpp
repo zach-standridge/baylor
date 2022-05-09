@@ -5,16 +5,20 @@
 #include <string>
 #include <fstream>
 
+using namespace std;
+using std::string;
+
 int main()
 {
-    std::string fileName;
-    int array[9]{};
+    string fileName;
+    int array[9];
 
-    std::cout << "Hello World!" << std::endl;
+    cout << "Hello World!" << endl;
 
     // read in file
-    std::cout << "What file do you need sorted: ";
-    std::cin >> fileName >> std::endl;
+    cout << "What file do you need sorted: ";
+    cin >> fileName;
+    cout << "The filename is: " << fileName << endl;
 
     // place data in array
 
